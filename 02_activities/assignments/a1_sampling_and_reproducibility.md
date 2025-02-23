@@ -10,11 +10,28 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Jingya Zhang
 
 ```
 Please write your explanation here...
+In the code, sampling occurs at multiple stages.
+1. select the infected individuals:
+    we are using simple random sampling to select the infected individuals, which was mentioned at the blog that"suppose that exactly 10% of people at every event are infected"
+    Function: infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
+    Sample size is 10% of the total population.
+    Sample frame: all 1000 individuals
+    Underlying distribution: ramdom sampling as every individual has an equal chance of being infected.
+2. select the primary contact tracing
+    we are using simple random sampling to select the primary contact tracing, which was mentioned at the blog that"n infection has only a 20% chance of being traced to a source event".
+    Funiction: pl.loc[ppl['infected'], 'traced'] = np.random.rand(sum(ppl['infected'])) < TRACE_SUCCESS
+    Sample size is 20% of the infected individuals.
+    Sample frame: all infected individuals
 
+I think the graph in the code is different from the graph from the blog, as I cannot see the high proportion of traced cases coming from wedding than infections.
+
+After change the number to 100, I feels like there was no big change for the result.
+
+To make the code reproducible, we are adding random seed so that every run produces the same random numbers. As we are adding the random seed before the function simulate_event(), it does not reset the random seed internally.
 ```
 
 

@@ -40,27 +40,40 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
 write your answer here...
+The purpose of my survey is to examine the relationship between ang and music taste, and compare of the same individua at different ages during their lifetime,particularly in how individuals preceive popular music.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
 ```
+Target Population: Induviduals across a wide age range, but should be engage with music in some capacity.
+Sampling Frame:Indivuduals who can participate in the study, maybe through online surveys, social media platforms and in-person surveys
+Sampling Units: Individual participants who are selected to take part in the survey.
+Observational Units: The answers provided by inducidual participants regarding their music tastes, listening habits, and opinion about popular music.
+
 
 Your 5-10 question survey:
 ```
 1. write your question here...
+        What is your age?
 2. write your question here...
+        How often do you listen to music?
 3. write your question here...
+        How do you discover new music?
 4. write your question here...
+        What are your top 3 favourite music genres?
 5. write your question here...
+        Do you still enjoy the music you loved in your teenage years?
 6. write your question here... (optional)
+        What decade of music do you personally enjoy the most?
 7. write your question here... (optional)
+        Do you think people's music taste naturally changes with age?
 8. write your question here... (optional)
 9. write your question here... (optional)
 10. write your question here... (optional)
@@ -72,6 +85,32 @@ Identify and describe survey features:
 
 ```
 write your answer here
+1. Sample type
+    The sample is based on a stratified design employing probability sampling. The stratification is done at the province/census metropolitan area (CMA) level. Information is collected from one randomly selected household member aged 15 or older, and proxy responses are not permitted.
+2. Sample size
+    A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+3. Target population
+    The target population for the GSS Giving, volunteering and participating includes all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame
+    This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame. Records on the frame are groups of one or several telephone numbers associated with the same address (or single telephone number in the case a link between a telephone number and an address could not be established). This sampling frame is used to obtain a better coverage of households with a telephone number.
+5. Survey mode(s) 
+    Data are collected directly from survey respondents either through an electronic questionnaire or through CATI (computer assisted telephone interviewing). No proxy reporting is allowed. The respondents has the choice between French and English. 
+6. Timeline
+    Data collection for this reference period: 2018-09-04 to 2018-12-28
+7. Response rate
+    The overall response rate is 41.9%.
+8. Weights
+    The main method used to reduce nonresponse bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible.
+9. Data processing
+    Processing used the SSPE set of generalized processing steps and utilities to allow subject matter and survey support staff to specify and run the processing of the survey in a timely fashion with high quality outputs.
+10. Cleaning, imputation, etc
+    Except in a few cases, all imputations were made using donor records selected through a score function.
+11. Sources of error
+    Potential errors include sampling errors, coverage errors due to the exclusion of certain populations, and non-response biases.
+12. Limitations, known biases, etc
+    Exclusions of residents from the territories and full-time institutional residents may limit the generalizability of findings to these groups. Additionally, reliance on self-reported data can introduce recall bias.
+13. Link to documentation and any additional sources used
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
